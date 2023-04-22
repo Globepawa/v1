@@ -21,4 +21,9 @@ body{
     box-shadow:  0 0 4px black;
     margin: auto;
     margin-top: 8px;
+}drop{
+    height: 49px;
+    width: 49px;
+    border-radius: 50%;
+    background: blue;
 }
