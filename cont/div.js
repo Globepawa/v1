@@ -15,4 +15,4 @@ $( ".drop_cn" ).droppable({
           .css('border-radius', '30px');
     }
   });
- });
+ }); 
