@@ -2,13 +2,23 @@ body{
     max-width: 480px;
     min-height: 700px;
     background: transparent;
+    margin: auto;
 }
 .top{
-    height: 30px;
+    height: 40px;
     box-shadow: 0 0 4px greenyellow;
+    margin-top: 4px;
 }
 .drop_cn{
-    height: 30vh;
+    height: 37vh;
     width: 94%;
     box-shadow:  0 0 4px black;
+    margin: auto;
+}
+.drag_cn{
+    height: 37vh;
+    width: 94%;
+    box-shadow:  0 0 4px black;
+    margin: auto;
+    margin-top: 8px;
 }
