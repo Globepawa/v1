@@ -8,6 +8,7 @@ body{
     box-shadow: 0 0 4px greenyellow;
 }
 .drop_cn{
-    height: 94%;
+    height: 30vh;
+    width: 94%;
     box-shadow:  0 0 4px black;
 }
