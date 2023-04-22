@@ -12,10 +12,11 @@ body{
 .drop_cn{
     height: 39vh;
     width: 80%;
-    box-shadow:  0 0 4px black;
+    box-shadow:  0 0 4px rgb(171, 59, 59);
     margin: auto;
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    align-content: center;
+    grid-template-columns: auto auto auto;
     text-align: center;
 }
 .drag_cn{
@@ -24,13 +25,34 @@ body{
     box-shadow:  0 0 4px black;
     margin: auto;
     margin-top: 8px;
-}.drop{
-    height: 84%;
-    width: 74%;
+    display: grid;
+    align-content: center;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+
+
+}
+.drop_cn .drop{
+    height: 94%;
+    width: 49%;
+    box-shadow: 0 0 7px rgb(198, 14, 23);
     color: black;
     border-radius: 50%;
-    background: rgb(143, 143, 187);
+    background: rgb(181, 171, 172);
     text-align: center;
     font-size: x-large;
     align-items: center;
+    margin: 7px;
 } 
+.drag_cn .drop{
+    height: 94%;
+    width: 49%;
+    box-shadow: 0 0 4px gold;
+    color: black;
+    border-radius: 50%;
+    background: rgb(31, 226, 197);
+    text-align: center;
+    font-size: x-large;
+    align-items: center;
+    margin: 7px;
+}
