@@ -16,6 +16,7 @@ body{
     margin: auto;
     display: grid;
     grid-template-columns: auto auto auto auto;
+    text-align: center;
 }
 .drag_cn{
     height: 39vh;
@@ -24,11 +25,11 @@ body{
     margin: auto;
     margin-top: 8px;
 }.drop{
-    height: 49px;
-    width: 49px;
+    height: 84%;
+    width: 74%;
     border-radius: 50%;
     background: blue;
     text-align: center;
-    font-size: 40px;
+    font-size: x-large;
     align-items: center;
 } 
