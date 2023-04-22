@@ -10,7 +10,7 @@ body{
     margin-top: 4px;
 }
 .drop_cn{
-    height: 37vh;
+    height: 39vh;
     width: 80%;
     box-shadow:  0 0 4px black;
     margin: auto;
@@ -18,7 +18,7 @@ body{
     grid-template-columns: auto auto auto auto;
 }
 .drag_cn{
-    height: 37vh;
+    height: 39vh;
     width: 80%;
     box-shadow:  0 0 4px black;
     margin: auto;
