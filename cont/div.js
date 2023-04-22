@@ -1,6 +1,6 @@
 $(function() {
 
-$('.drop').draggable();
+$('.drop').click().draggable();
 
 $( ".drop_cn" ).droppable({
     classes: {
