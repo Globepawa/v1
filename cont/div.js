@@ -1,12 +1,18 @@
-$(document).ready(function(){
-    var div = "<div class='drop'></div>";
+$(function() {
 
-$('.drop_cn').each(function() {
+$('.drop').draggable();
 
-for(var i= 26; div<length; i++){
-    return (div[i]);
-}
+$( ".drop_cn" ).droppable({
+    classes: {
+      "ui-droppable-active": "ui-state-active",
+      "ui-droppable-hover": "ui-state-hover"
+    },
+    drop: function( event, ui ) {
+      $( this )
+        .addClass( "ui-state-highlight" )
+        .find( "p" )
+          .html( "Dropped!" )
+          .css('border-radius', '30px');
+    }
+  });
  });
-
-}
-);
