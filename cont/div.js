@@ -1,6 +1,6 @@
 $(function() {
 
-$('.drop').click().draggable();
+$('.drop').draggable({revert: 'invalid'});
 
 $( ".drop_cn" ).droppable({
     classes: {
